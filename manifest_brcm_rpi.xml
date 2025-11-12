@@ -36,12 +36,13 @@
   </project>
 
   <!-- Camera -->
+  <remove-project name="platform/external/libcamera" />
   <project path="external/libcamera" name="raspberry-vanilla/android_external_libcamera" remote="github" revision="android-16.0" />
   <project path="external/libpisp" name="raspberry-vanilla/android_external_libpisp" remote="github" revision="android-16.0" />
-  <project path="external/libyaml" name="raspberry-vanilla/android_external_libyaml" remote="github" revision="android-16.0" />
   <project path="external/libyuv_chromium" name="raspberry-vanilla/android_external_libyuv_chromium" remote="github" revision="android-16.0" />
 
   <!-- FFmpeg -->
+  <remove-project name="platform/external/libudev-zero" />
   <project path="external/ffmpeg" name="raspberry-vanilla/android_external_ffmpeg" remote="github" revision="android-16.0" />
   <project path="external/ffmpeg_codec2" name="raspberry-vanilla/android_external_ffmpeg_codec2" remote="github" revision="android-16.0" />
   <project path="external/libudev-zero" name="raspberry-vanilla/android_external_libudev-zero" remote="github" revision="android-16.0" />

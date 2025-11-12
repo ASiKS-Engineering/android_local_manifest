@@ -2,6 +2,8 @@
 
 ***
 
+NOTE: See [AOSP16 QPR1 issues and workarounds](https://github.com/raspberry-vanilla/android_local_manifest/issues/220)
+
 ### How to build (Ubuntu 22.04 LTS):
 
 1. Establish [Android build environment](https://source.android.com/docs/setup/start/requirements).
@@ -15,14 +17,14 @@ sudo apt-get install dosfstools e2fsprogs fdisk kpartx mtools rsync
 3. Initialize repo:
 
 ```
-repo init -u https://android.googlesource.com/platform/manifest -b android-16.0.0_r1
+repo init -u https://android.googlesource.com/platform/manifest -b android-16.0.0_r3
 curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-16.0/manifest_brcm_rpi.xml --create-dirs
 ```
 
 Or optionally, you can reduce download size by creating a shallow clone and removing unneeded projects:
 
 ```
-repo init -u https://android.googlesource.com/platform/manifest -b android-16.0.0_r1 --depth=1
+repo init -u https://android.googlesource.com/platform/manifest -b android-16.0.0_r3 --depth=1
 curl -o .repo/local_manifests/manifest_brcm_rpi.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-16.0/manifest_brcm_rpi.xml --create-dirs
 curl -o .repo/local_manifests/remove_projects.xml -L https://raw.githubusercontent.com/raspberry-vanilla/android_local_manifest/android-16.0/remove_projects.xml
 ```
@@ -42,22 +44,22 @@ repo sync
 6. Select the device (`rpi4` or `rpi5`) and build target (tablet UI, `tv` for Android TV, or `car` for Android Automotive):
 
 ```
-lunch aosp_rpi4-bp2a-userdebug
+lunch aosp_rpi4-bp3a-userdebug
 ```
 ```
-lunch aosp_rpi4_tv-bp2a-userdebug
+lunch aosp_rpi4_tv-bp3a-userdebug
 ```
 ```
-lunch aosp_rpi4_car-bp2a-userdebug
+lunch aosp_rpi4_car-bp3a-userdebug
 ```
 ```
-lunch aosp_rpi5-bp2a-userdebug
+lunch aosp_rpi5-bp3a-userdebug
 ```
 ```
-lunch aosp_rpi5_tv-bp2a-userdebug
+lunch aosp_rpi5_tv-bp3a-userdebug
 ```
 ```
-lunch aosp_rpi5_car-bp2a-userdebug
+lunch aosp_rpi5_car-bp3a-userdebug
 ```
 
 7. Compile:
