@@ -91,6 +91,7 @@ Also look into [Linux kernel build instructions](https://github.com/raspberry-va
 ### Wiki:
 
 - [Audio](https://github.com/raspberry-vanilla/android_local_manifest/wiki/Audio)
+- [Desktop mode](https://github.com/raspberry-vanilla/android_local_manifest/wiki/Desktop-mode)
 - [DSI display](https://github.com/raspberry-vanilla/android_local_manifest/wiki/DSI-display)
 - [HDMI display](https://github.com/raspberry-vanilla/android_local_manifest/wiki/HDMI-display)
 - [HDMI-CEC](https://github.com/raspberry-vanilla/android_local_manifest/wiki/HDMI-CEC)
