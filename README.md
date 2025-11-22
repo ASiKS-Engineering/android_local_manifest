@@ -2,8 +2,6 @@
 
 ***
 
-NOTE: See [AOSP16 QPR1 issues and workarounds](https://github.com/raspberry-vanilla/android_local_manifest/issues/220)
-
 ### How to build (Ubuntu 22.04 LTS):
 
 1. Establish [Android build environment](https://source.android.com/docs/setup/start/requirements).
