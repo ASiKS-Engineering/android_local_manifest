@@ -54,6 +54,10 @@
   <project path="external/mesa3d-rpi" name="raspberry-vanilla/android_external_mesa3d-rpi" remote="github" revision="android-16.0" />
   <project path="external/minigbm" name="raspberry-vanilla/android_external_minigbm" remote="github" revision="android-16.0" />
 
+  <!-- ninja-to-soong -->
+  <remove-project name="platform/external/rust/ninja-to-soong" />
+  <project path="external/rust/ninja-to-soong" name="raspberry-vanilla/android_external_rust_ninja-to-soong" remote="github" revision="android-16.0" />
+
   <!-- v4l2_codec2 -->
   <remove-project name="platform/external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="raspberry-vanilla/android_external_v4l2_codec2" remote="github" revision="android-16.0" />
