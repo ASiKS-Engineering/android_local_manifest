@@ -66,13 +66,13 @@ lunch aosp_rpi5_car-cp2a-userdebug
 make bootimage systemimage vendorimage -j$(nproc)
 ```
 
-8. Make flashable image for the device (`rpi4` or `rpi5`):
+8. Make flashable image for the device (`rpi4` or `rpi5`) --> default 16GB SDCARD (e.g. rpi4) or 64GB SDCARD (e.g. rpi5):
 
 ```
 ./rpi4-mkimg.sh
 ```
 ```
-./rpi5-mkimg.sh
+./rpi5-mkimg.sh 64
 ```
 
 Also look into [Linux kernel build instructions](https://github.com/raspberry-vanilla/android_kernel_manifest/tree/android-17.0).
