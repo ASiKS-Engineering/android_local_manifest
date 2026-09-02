@@ -3,15 +3,10 @@
   <remote name="github" fetch="https://github.com/" />
 
   <!-- Raspberry Pi -->
-  <project path="device/brcm/rpi4" name="raspberry-vanilla/android_device_brcm_rpi4" remote="github" revision="android-17.0" >
-    <linkfile src="mkimg.sh" dest="rpi4-mkimg.sh" />
-    <linkfile src="wrimg.sh" dest="rpi4-wrimg.sh" />
-  </project>
   <project path="device/brcm/rpi5" name="ASiKS-Engineering/android_device_brcm_rpi5" remote="github" revision="android-17.0" >
     <linkfile src="mkimg.sh" dest="rpi5-mkimg.sh" />
     <linkfile src="wrimg.sh" dest="rpi5-wrimg.sh" />
   </project>
-  <project path="device/brcm/rpi4-kernel" name="raspberry-vanilla/android_device_brcm_rpi4-kernel" remote="github" revision="android-17.0" />
   <project path="device/brcm/rpi5-kernel" name="raspberry-vanilla/android_device_brcm_rpi5-kernel" remote="github" revision="android-17.0" />
   <project path="vendor/brcm" name="raspberry-vanilla/proprietary_vendor_brcm" remote="github" revision="android-17.0" />
 
@@ -62,4 +57,14 @@
   <remove-project name="platform/external/v4l2_codec2" />
   <project path="external/v4l2_codec2" name="raspberry-vanilla/android_external_v4l2_codec2" remote="github" revision="android-17.0" />
 
+  <!-- car settings -->
+  <remove-project name="packages\apps\Car\Settings" />
+  <project path="packages\apps\Car\Settings" name="asiks-engineering/aosp-car-settings" remote="github" />
+
+  <!-- car launcher -->
+  <remove-project name="packages\apps\Car\Launcher" />
+  <project path="packages\apps\Car\Launcher" name="asiks-engineering/aosp-car-launcher" remote="github" />
+
+  
+  
 </manifest>
