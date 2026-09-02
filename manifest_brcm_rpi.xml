@@ -58,12 +58,12 @@
   <project path="external/v4l2_codec2" name="raspberry-vanilla/android_external_v4l2_codec2" remote="github" revision="android-17.0" />
 
   <!-- car settings -->
-  <remove-project name="packages\apps\Car\Settings" />
-  <project path="packages\apps\Car\Settings" name="ASiKS-Engineering/aosp-car-settings" remote="github" />
+  <remove-project name="platform\packages\apps\Car\Settings" />
+  <project path="platform\packages\apps\Car\Settings" name="ASiKS-Engineering/aosp-car-settings" remote="github" />
 
   <!-- car launcher -->
-  <remove-project name="packages\apps\Car\Launcher" />
-  <project path="packages\apps\Car\Launcher" name="ASiKS-Engineering/aosp-car-launcher" remote="github" />
+  <remove-project name="platform\packages\apps\Car\Launcher" />
+  <project path="platform\packages\apps\Car\Launcher" name="ASiKS-Engineering/aosp-car-launcher" remote="github" />
 
   
   
