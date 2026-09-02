@@ -59,11 +59,11 @@
 
   <!-- car settings -->
   <remove-project name="packages\apps\Car\Settings" />
-  <project path="packages\apps\Car\Settings" name="asiks-engineering/aosp-car-settings" remote="github" />
+  <project path="packages\apps\Car\Settings" name="ASiKS-Engineering/aosp-car-settings" remote="github" />
 
   <!-- car launcher -->
   <remove-project name="packages\apps\Car\Launcher" />
-  <project path="packages\apps\Car\Launcher" name="asiks-engineering/aosp-car-launcher" remote="github" />
+  <project path="packages\apps\Car\Launcher" name="ASiKS-Engineering/aosp-car-launcher" remote="github" />
 
   
   
