@@ -59,12 +59,11 @@
 
   <!-- car settings -->
   <remove-project name="platform/packages/apps/Car/Settings" />
-  <project path="platform/packages/apps/Car/Settings" name="ASiKS-Engineering/aosp-car-settings" remote="github" revision="android-17.0" />
+  <project path="packages/apps/Car/Settings" name="ASiKS-Engineering/aosp-car-settings" remote="github" revision="android-17.0" />
 
   <!-- car launcher -->
   <remove-project name="platform/packages/apps/Car/Launcher" />
-  <project path="platform/packages/apps/Car/Launcher" name="ASiKS-Engineering/aosp-car-launcher" remote="github" revision="android-17.0" />
+  <project path="packages/apps/Car/Launcher" name="ASiKS-Engineering/aosp-car-launcher" remote="github" revision="android-17.0" />
 
-  
   
 </manifest>
