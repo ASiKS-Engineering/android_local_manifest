@@ -39,14 +39,8 @@ repo sync
 . build/envsetup.sh
 ```
 
-6. Select the device (`rpi5`) and build target (tablet UI, `tv` for Android TV, or `car` for Android Automotive):
+6. Select the device (`rpi5`) and build target (`car` for Android Automotive):
 
-```
-lunch aosp_rpi5-cp2a-userdebug
-```
-```
-lunch aosp_rpi5_tv-cp2a-userdebug
-```
 ```
 lunch aosp_rpi5_car-cp2a-userdebug
 ```
@@ -57,11 +51,13 @@ lunch aosp_rpi5_car-cp2a-userdebug
 make bootimage systemimage vendorimage -j$(nproc)
 ```
 
-8. Make flashable image for the device (`rpi5`) --> default 16GB SDCARD or 64GB SDCARD (e.g. ./rpi5-mkimg.sh 64):
+8. Make flashable image for the device stating sdcard size --> default 16GB SDCARD or custom SDCARD size (e.g. ./rpi5-mkimg.sh 64 --> 64GB):
 
 ```
 ./rpi5-mkimg.sh 64
 ```
+
+9. Flash image:
 
 Using our [BMAP-Imager](https://github.com/ASiKS-Engineering/BMAP-Imager.git) for flashing .img with .bmap file saves a lot of time!
 
