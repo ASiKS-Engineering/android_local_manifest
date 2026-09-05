@@ -63,7 +63,7 @@ make bootimage systemimage vendorimage -j$(nproc)
 ./rpi5-mkimg.sh 64
 ```
 
-Using our BMAP-Imager (https://github.com/ASiKS-Engineering/BMAP-Imager.git) for flashing .img with .bmap file saves a lot of time!
+Using our [BMAP-Imager](https://github.com/ASiKS-Engineering/BMAP-Imager.git) for flashing .img with .bmap file saves a lot of time!
 
 Also look into [Linux kernel build instructions](https://github.com/raspberry-vanilla/android_kernel_manifest/tree/android-17.0).
 
