@@ -73,5 +73,8 @@
   <remove-project name="platform/packages/apps/Car/SystemUI" />
   <project path="packages/apps/Car/SystemUI" name="ASiKS-Engineering/aosp-car-systemUI" remote="github" revision="android-17.0" />
 
+  <!-- camper navigator -->
+  <project path="packages/apps/CamperNavigator" name="ASiKS-Engineering/aosp-camper-navigator" remote="github" revision="android-17.0" />
+
   
 </manifest>
