@@ -69,5 +69,9 @@
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="ASiKS-Engineering/aosp-hardware-interfaces" remote="github" revision="android-17.0" />
 
+  <!-- car system ui -->
+  <remove-project name="platform/packages/apps/Car/SystemUI" />
+  <project path="packages/apps/Car/SystemUI" name="ASiKS-Engineering/aosp-car-systemUI" remote="github" revision="android-17.0" />
+
   
 </manifest>
