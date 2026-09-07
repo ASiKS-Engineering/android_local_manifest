@@ -76,5 +76,8 @@
   <!-- camper navigator -->
   <project path="packages/apps/CamperNavigator" name="ASiKS-Engineering/aosp-camper-navigator" remote="github" revision="android-17.0" />
 
+   <!-- boot animation -->
+  <project path="device/brcm/rpi5/media" name="ASiKS-Engineering/aosp-bootanimation" remote="github" revision="android-17.0" />
+ 
   
 </manifest>
