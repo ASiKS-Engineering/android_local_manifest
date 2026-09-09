@@ -77,11 +77,11 @@
   <project path="packages/apps/CamperNavigator" name="ASiKS-Engineering/aosp-camper-navigator" remote="github" revision="android-17.0" />
 
   <!-- camper navigator service -->
-  <project path="vendor/asiks/camper-navigator-service" name="ASiKS-Engineering/aosp-camper-navigator-service" remote="github" revision="main" />
+  <project path="vendor/asiks/camper-navigator-service" name="ASiKS-Engineering/aosp-camper-navigator-service" remote="github" revision="android-17.0" />
 
   <!-- frameworks base -->
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="main" />
+  <project path="frameworks/base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" />
 
   <!-- system sepolicy -->
   <remove-project name="platform/system/sepolicy" />
