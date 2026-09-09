@@ -83,6 +83,14 @@
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" />
 
+  <!-- frameworks base patch -->
+  <project path="frameworks/base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" />
+  <!-- Replace SystemServer.java.conf -->
+  <copyfile src="services/java/com/android/server/SystemServer.java.conf" dest="services/java/com/android/server/SystemServer.java.conf" />
+  <!-- Replace SystemServer.java.conf -->
+  <copyfile src="services/core/Android.bp" dest="services/core/Android.bp" />
+  </project>
+  
   <!-- system sepolicy -->
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="ASiKS-Engineering/aosp-system-sepolicy" remote="github" revision="android-17.0" />
