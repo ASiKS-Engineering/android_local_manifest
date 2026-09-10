@@ -79,11 +79,7 @@
   <!-- camper navigator service -->
   <project path="vendor/asiks/camper-navigator-service" name="ASiKS-Engineering/aosp-camper-navigator-service" remote="github" revision="android-17.0" />
 
-    <!-- frameworks base -->
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="platform/frameworks/base" remote="github" revision="android-17.0" />
-
-  <!-- ASiKS frameworks/base overlay source -->
+  <!-- frameworks base overlay source -->
   <project path="vendor/asiks/frameworks-base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" />
   
   <!-- system sepolicy -->
