@@ -81,7 +81,7 @@
 
   <!-- asiks overlay sources -->
   <project path="vendor/asiks/frameworks-base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" />
-  <project path="asiks-tools" name="ASiKS-Engineering/aosp17-tools" remote="github" revision="android-17.0" />
+  <project path="asiks-tools" name="ASiKS-Engineering/aosp-tools" remote="github" revision="android-17.0" />
   
   <!-- system sepolicy -->
   <remove-project name="platform/system/sepolicy" />
