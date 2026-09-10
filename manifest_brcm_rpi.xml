@@ -85,10 +85,10 @@
   <project path="frameworks/base" name="platform/frameworks/base" remote="github" revision="android-17.0" />
 
   <!-- ASiKS frameworks/base overlay -->
-  <project path="vendor/asiks/frameworks-base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0">
+  <!--project path="vendor/asiks/frameworks-base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0">
     <copyfile src="services/core/Android.bp" dest="frameworks/base/services/core/Android.bp" />
     <copyfile src="services/java/com/android/server/SystemServer.java.conf" dest="frameworks/base/services/java/com/android/server/SystemServer.java.conf" />
-  </project>
+  </project-->
   
   <!-- system sepolicy -->
   <remove-project name="platform/system/sepolicy" />
