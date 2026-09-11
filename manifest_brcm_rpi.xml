@@ -83,8 +83,8 @@
   <project path="packages/apps/OpenRearViewCamera" name="ASiKS-Engineering/aosp_rear_view_camera" remote="github" revision="main" />
 
   <!-- frameworks base -->
-  <!--remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" /-->
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="ASiKS-Engineering/aosp-frameworks-base" remote="github" revision="android-17.0" />
   
   <!-- system sepolicy -->
   <remove-project name="platform/system/sepolicy" />
