@@ -80,7 +80,7 @@
   <project path="vendor/asiks/camper-navigator-service" name="ASiKS-Engineering/aosp-camper-navigator-service" remote="github" revision="android-17.0" />
 
   <!-- Rear view camera -->
-  <project path="packages/apps/OpenRearViewCamera" name="ASiKS-Engineering/aosp_rear_view_camera" remote="github" revision="main" />
+  <project path="packages/apps/OpenRearViewCamera" name="ASiKS-Engineering/aosp_rear_view_camera" remote="github" revision="android-17.0" />
 
   <!-- frameworks base -->
   <remove-project name="platform/frameworks/base" />
