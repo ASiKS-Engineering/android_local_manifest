@@ -87,8 +87,5 @@
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="ASiKS-Engineering/aosp-system-sepolicy" remote="github" revision="android-17.0" />
 
-   <!-- boot animation -->
-  <project path="device/brcm/rpi5/media" name="ASiKS-Engineering/aosp-camper-bootanimation" remote="github" revision="android-17.0" />
- 
   
 </manifest>
